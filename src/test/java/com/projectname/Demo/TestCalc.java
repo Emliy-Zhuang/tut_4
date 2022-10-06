@@ -32,8 +32,17 @@ public class TestCalc
 
     /**
      * Rigourous Test :-)
+     *
+     *
      */
-    public void testCalc()
+
+    public void testAdd()
+    {
+        Calc c = new Calc();
+        assertEquals(6, c.subtract(4,2));
+    }
+
+    public void testSubtract()
     {
         Calc c = new Calc();
         assertEquals(2, c.subtract(4,2));
